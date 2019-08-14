@@ -5,40 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel = "stylesheet" href="assets/css/styles.css">
-    <title>Basic Portfolio</title>
+    <title>Responsive Portfolio</title>
 </head>
 <body>
 
         <header>
             <h1 class="header-name">Christopher Harding</h1>
             <nav class = "menu">
-                <ul>
-                    <li><a href = "#">Contact</a></li>
-                    <li><a href = "portfolio.html">Portfolio</a></li>
-                    <li><a href = "index.html">About</a></li>
+                    <a href = "index.html">About</a>
+                    <a href = "portfolio.html">Portfolio</a>
+                    <a href = "#">Contact</a>
 
-                </ul>
             </nav>
         </header>
         <section class=form-section>
            <div><h1 class=contact-header>Contact</h1></div>
 
-                <form action = contact.html>
+                <form id = contact-form>
                     <div class="info">
-                        <div>
-                            <label>First name<br><br>
-                            <input type="text" name="FirstName" size="40"><br><br><br>
-                            </label>
-                        </div>
-                        <div>
-                            <label>Email<br><br>
-                            <input type="text" name="Email" size="30"><br><br><br>
-                         </div>
-                         <div>
-                             <label>Message</label><br><br>
+                    <ul>
+                        <li class="form-group">
+                            <label>Name</label>
+                            <input type="text" name="FirstName">
+                            
+                        </li>
+                        <li class="form-group">
+                            <label>Email</label>
+                            <input type="email" name="Email">
+                        </li>
+                         <li class="form-group">
+                             <label>Message</label>
                              <textarea id ="Message" rows="15" cols="75"></textarea>
-                         </div>
-                        
+                         </li>
+                         <button type="button">Submit</button>
+                    </ul>
                     </div>           
                 </form>
         </section>
