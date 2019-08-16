@@ -19,7 +19,9 @@ body{
 nav.menu{
     display: inline;
     padding: 2%;
-    margin-left: 20%;
+    margin-left: 15%;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
 header{
@@ -45,7 +47,7 @@ h1{
     color: #ffffff;
     padding:20px;
     margin-top: -20px;
-    margin-left:300px;
+    margin-left:18%;
 }
 
 ul{
@@ -99,6 +101,16 @@ input{
 
 }
 
+#profile{
+    width: 200px;
+    height: 200px;
+    float: left;
+    position: relative;
+    margin-left:100px;
+    margin-top:30px;
+
+}
+
 #portfolio-box{
     border: 2px solid black;
     width: 960px;
@@ -112,6 +124,14 @@ input{
     margin-top: 2%;
 }
 
+p{
+    float: right;
+    width: 60%;
+    font-size: 25px;
+    margin-right: 5%;
+}
+
+
 
 .info{
     margin-left: 5%;
@@ -124,24 +144,11 @@ input{
 img{
     width: 250px;
     height: 250px;
+    padding: 10px;
 }
 
-#profile{
-    width: 200px;
-    height: 200px;
-    float: left;
-    position: relative;
-    margin-left:100px;
-    margin-top:30px;
 
-}
 
-p{
-    float: right;
-    width: 60%;
-    font-size: 25px;
-    margin-right: 5%;
-}
 
 .portfolio-header,.about-header, .contact-header{
     color: #4aaaa5;
@@ -214,7 +221,7 @@ textarea{
 @media screen and (max-width: 980px){
     
     .header-name{
-        margin-left:5%;
+        margin-left: -2px;
     }
 
    
@@ -235,7 +242,7 @@ textarea{
     }
 
     .container{
-        max-width: 920px;
+        max-width: 980px;
     }
 
    
@@ -244,13 +251,45 @@ textarea{
         border-bottom: 2px solid gray;
         max-width: 980px;
         padding: 20px;
+        margin-left: 2%;
+        width:95%;
+    }
+
+    #bio-box{
+        height: 100%;
+        width:90%;
     }
     
         
     p{
-        position: relative;
+        float: none;
+        width: 100%;
     }
 
+    #profile{
+        margin-left:54px;
+        margin-top:12px;
+        padding:10px;
+    }
+
+    nav.menu{
+        margin-left: 7%;
+    }
+
+    #portfolio-box{
+        width:75%;
+        height:100%;
+    }
+
+   img{
+       width: 280px;
+   }
+
+   .form-section{
+       width: 85%;
+       margin-left:2%;
+       height:510px;
+   }
 
   
 
@@ -273,6 +312,21 @@ textarea{
         width: 100%;
     }
 
+    .header-name{
+        margin-left:-4%;
+    }
+
+    #profile{
+        margin-left: 63px;
+        margin-top: 30px;
+        margin-bottom: 3px;
+    }
+
+    nav.menu{
+        margin-left: 10%;
+    }
+
+
     .portfolio-header,.about-header, .contact-header{
         color: #4aaaa5;
         border-bottom: 2px solid gray;
@@ -281,9 +335,33 @@ textarea{
     }
 
     .container{
-        max-width: 720px
+        max-width: 768px;
     }
+
+    p{
+        float: none;
+    }
+
     
+    #portfolio-box{
+        width: 95%;
+        height: 100%;
+    }
+
+    .images{
+        margin-left:2%;
+    }
+
+    .form-section{
+        width: 85%;
+        height:510px;
+    }
+
+    input[type=text],
+    input[type=email],
+    textarea {
+        width:130%;
+    }
 
 }
 
@@ -307,5 +385,53 @@ textarea{
         max-width: 640px;
         padding: 20px;
     }
+
+    .header-name{
+        float: none;
+        margin-left:-10%;
+        margin-right:-8%;
+        margin-top:-40px;
+        text-align: center;
+        padding: 30px;
+    }
+
+    p{
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    nav.menu{
+        padding: 20%;
+        margin-left:5%;
+    }
+
+
+
+    header{
+        position: static;
+        height: 130px;
+    }
+
+
+    #profile{
+        float:none;
+        width: 75%;
+        height:250px;
+        margin-top:2px;
+    }
+    
+    img{
+        width:350px;
+    }
+
+    .images{
+        margin-left:18%;
+    }
+    input[type=text],
+    input[type=email],
+    textarea {
+        width:150%;
+    }
+
 
 }
