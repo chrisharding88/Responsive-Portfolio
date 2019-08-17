@@ -35,6 +35,10 @@ header{
     left:0;
 }
 
+.container{
+    min-height: calc(100vh - 70px);
+
+}
 
 h1{
     float: left;
@@ -114,7 +118,7 @@ input{
 #portfolio-box{
     border: 2px solid black;
     width: 960px;
-    height:600px;
+    height:670px;
     margin: 0 auto;
     margin-top: 2%;
     background-color: #ffffff;
@@ -164,6 +168,34 @@ img{
 
 }
 
+.pic{
+    position: relative;
+    overflow: auto;
+    float: left;
+    width:274px;
+    margin: 20px 0 25px;
+}
+
+.pic img {
+    width:100%;
+    border: 0 none;
+    opacity: 0.8;
+}
+
+.pic h3{
+    position: absolute;
+    background: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 0;
+    font-weight: 300;
+    left: 10px;
+    bottom: 40px;
+    width: 93%;
+    padding: 10px;
+}
+
 .images{
     display: block;
     margin-top:45px;
@@ -207,6 +239,14 @@ textarea{
 
 .form-group{
     margin-left:2%;
+}
+
+button{
+    font-size: 20px;
+    width: 30%;
+    padding: 10px;
+    background-color: #4aaaa5;
+    color: #ffffff;
 }
 
 
@@ -277,12 +317,16 @@ textarea{
     }
 
     #portfolio-box{
-        width:75%;
-        height:100%;
+        width:85%;
+        height:965px;
     }
 
    img{
        width: 280px;
+   }
+
+   #pic-container{
+       min-height: calc(155vh - 70px);
    }
 
    .form-section{
@@ -345,11 +389,14 @@ textarea{
     
     #portfolio-box{
         width: 95%;
-        height: 100%;
     }
 
     .images{
         margin-left:2%;
+    }
+
+    #pic-container{
+        min-height: calc(135vh - 70px);
     }
 
     .form-section{
@@ -427,10 +474,31 @@ textarea{
     .images{
         margin-left:18%;
     }
+
+    #pic-container{
+        min-height: calc(230vh - 70px);
+    }
+
+    #portfolio-box{
+        height: 1870px;
+    }
+
+    .pic{
+        width: 400px;
+    }
+
+    .pic h3{
+        width: 95%;
+    }
+
     input[type=text],
     input[type=email],
     textarea {
         width:150%;
+    }
+
+    button{
+        width:50%
     }
 
 
