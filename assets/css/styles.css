@@ -458,11 +458,14 @@ button{
         padding: 30px;
     }
 
+    a{
+        padding: 4%;
+    }
    
 
     nav.menu{
         padding: 25%;
-        margin-left:5%;
+        margin-left:-2%;
     }
 
 
