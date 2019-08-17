@@ -259,7 +259,8 @@ button{
 
 
 @media screen and (max-width: 980px){
-    
+  
+    /* Main */
     .header-name{
         margin-left: -2px;
     }
@@ -316,6 +317,8 @@ button{
         margin-left: 7%;
     }
 
+    /* Portfolio Page */
+
     #portfolio-box{
         width:85%;
         height:965px;
@@ -329,6 +332,9 @@ button{
        min-height: calc(155vh - 70px);
    }
 
+
+   /*Contact Page */
+
    .form-section{
        width: 85%;
        margin-left:2%;
@@ -340,6 +346,9 @@ button{
 }
 
 @media screen and (max-width: 768px){
+
+    /* Main */
+
     #wrapper{
         margin-right: auto;
         margin-left: auto;
@@ -382,11 +391,14 @@ button{
         max-width: 768px;
     }
 
+    /* About Page */
+
     p{
         float: none;
     }
 
-    
+    /* portfolio Page */
+
     #portfolio-box{
         width: 95%;
     }
@@ -398,6 +410,8 @@ button{
     #pic-container{
         min-height: calc(135vh - 70px);
     }
+
+    /* Contact Page */
 
     .form-section{
         width: 85%;
@@ -415,6 +429,8 @@ button{
 
 
 @media screen and (max-width: 640px){
+
+    /* Main */
     #wrapper{
         margin-right: auto;
         margin-left: auto;
@@ -442,13 +458,10 @@ button{
         padding: 30px;
     }
 
-    p{
-        font-size: 16px;
-        line-height: 20px;
-    }
+   
 
     nav.menu{
-        padding: 20%;
+        padding: 25%;
         margin-left:5%;
     }
 
@@ -459,6 +472,13 @@ button{
         height: 130px;
     }
 
+    /* About Page */
+
+    p{
+        font-size: 16px;
+        line-height: 20px;
+    }
+
 
     #profile{
         float:none;
@@ -467,6 +487,8 @@ button{
         margin-top:2px;
     }
     
+
+    /* Portfolio Page */
     img{
         width:350px;
     }
@@ -490,6 +512,8 @@ button{
     .pic h3{
         width: 95%;
     }
+
+    /* Contact Page */
 
     input[type=text],
     input[type=email],
